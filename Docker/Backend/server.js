@@ -15,7 +15,7 @@ const io = new Server(httpServer , {
     }
 })
 
-const ySocketIO = new ysocketIO(io)
+const ySocketIO = new YSocketIO(io)
 
 ySocketIO.initialize()
 
